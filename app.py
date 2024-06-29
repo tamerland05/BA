@@ -6,7 +6,7 @@ from user_data import *
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-db_path = '../sovet5.db'
+db_path = 'sovet5.db'
 
 app = FastAPI()
 

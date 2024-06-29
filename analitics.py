@@ -265,7 +265,7 @@ class Analytics:
 
 
 def count_dashboard(marketplace, analytics_time_type, left_side, right_side):
-    db_path = '../sovet5.db'
+    db_path = 'sovet5.db'
     result = {'error': False}
 
     analytics = Analytics(db_path, left_side, right_side, marketplace)
@@ -332,7 +332,7 @@ def count_dashboard(marketplace, analytics_time_type, left_side, right_side):
 
 
 def count_charts(now):
-    db_path = '../sovet5.db'
+    db_path = 'sovet5.db'
     result = {'error': False}
 
     analytics = Analytics(db_path, now, None, None)
